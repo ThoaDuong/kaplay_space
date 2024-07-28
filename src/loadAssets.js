@@ -7,8 +7,11 @@ export function loadAssets(k) {
         // bullet: { x: 0, y: 16, width: 16, height: 16, sliceX: 0, sliceY: 0 },
     });
 
-    k.loadSpriteAtlas("sprites/flight.png", {
-        ship: { x: 0, y: 0, width: 100, height: 100, sliceX: 0, sliceY: 0 },
+    // k.loadSpriteAtlas("sprites/flight.png", {
+    //     ship: { x: 0, y: 0, width: 100, height: 100, sliceX: 0, sliceY: 0 },
+    // })
+    k.loadSpriteAtlas("sprites/spaceship64.png", {
+        ship: { x: 0, y: 0, width: 64, height: 64, sliceX: 0, sliceY: 0 },
     })
     k.loadSpriteAtlas("sprites/spider.png", {
         enemy: { x: 0, y: 0, width: 64, height: 64, sliceX: 0, sliceY: 0 },

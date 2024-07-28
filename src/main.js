@@ -13,7 +13,7 @@ const k = kaplay({
 	global: false,
 })
 
-k.setBackground(k.Color.fromHex("#9796f0"))
+k.setBackground(k.Color.fromHex("#134B70"))
 
 loadAssets(k);
 makeMenu(k);

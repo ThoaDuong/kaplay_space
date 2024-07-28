@@ -13,7 +13,7 @@ export function makeGame(k) {
             k.pos(0, 0),
             k.rect(1280, 64),
             k.outline(4),
-            k.color(k.Color.fromHex("#7469B6")),
+            k.color(k.Color.fromHex("#478CCF")),
             k.z(10),
         ]);
 
@@ -35,7 +35,8 @@ export function makeGame(k) {
             k.body(),
             k.anchor("center"),
             // k.scale(4),
-            k.scale(0.5),
+            // k.scale(0.5),
+            k.scale(0.9),
             {
                 speed: 800,
             },
